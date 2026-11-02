@@ -31,6 +31,9 @@ def reset_world():
     grass = Grass()
     game_world.add_object(grass, 0)
 
+    grass2 = Grass()
+    game_world.add_object(grass, 2)
+
 
 def shoot_ball(x, y, direction):
     ball = Ball(x + direction * 50, y, direction)
