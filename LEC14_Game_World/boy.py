@@ -7,7 +7,7 @@ from transitions import Machine
 
 
 class Boy:
-    def __init__(self, y, shoot_callback=None):
+    def __init__(self, y=30, shoot_callback=None):
         self.x = 400
         self.y = y
         self.frame = 0
